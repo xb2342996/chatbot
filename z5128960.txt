@@ -1,0 +1,71 @@
+Week 2
+form group and discuss
+
+
+Week 3
+do research and write the proposal.
+
+
+Week 4
+1. build the conversation model for search MOVIE information part in Dialogflow
+2. process movie data for movie name searching (get data from omdb then filter the movies and features we need)
+
+
+Week 5
+write program for MOVIE chat part in back end.
+- search plot, writer, director, actor, movie rating in different movie review website, genre or released year for a certain movie or multiple movies
+- apply keep context function for both movie name and type of movie information
+
+
+Week 6
+build the conversation model for LIGHT control part in Dialogflow and rewrite all the light chat part function in back end.
+- alter brightness  (brighter, dimer, set to the certain percent brightness, brightest)
+- change color (can be switch to any color)
+- tune whites (white light to be cooler or warmer)
+- control the switch (on or off)
+
+
+Week 7
+1. build the conversation model for apple WATCH part in Dialogflow, and write apple watch chat part in back-end.
+- ask for heart rate, maximum heart rate, minimum heart rate, steps, calorie, sleep analysis, walking distance
+- apply keep context function for type of health data
+(This part rewrite by Nanfei Ye at Week9 - Week10)
+
+2. build the conversation model for MUSIC part in Dialogflow, and write music chat part in back-end.
+- ask for singer’s top ten songs, singer’s albums, user’s own playlist
+- Music player function (play, shuffle, loop, stop, skip backward, skip forward, pause stop)
+
+
+Week 8
+1. Apply FUZZY SEARCH for movie part
+- process movie data and put them into mongodb
+- use regex to find the candidate movies from database
+
+2. rebuild the MOVIE SELECTION and MUSIC SELECTION part model and write the back-end for movie selection and music selection
+- apply selection tracks from top ten songs list, from album list and from playlist function
+- apply movie selection from  fuzzy search result
+
+
+Week9
+1. Apply RANKING METHOD for the results of fuzzy search. Use TFIDF weight sorting method to rank the order of the results, push top 20 result to the front end
+2. Read the paper about different types of recommendation system
+
+
+Week10
+1. Apply personalized recommendation system for recommending movie function
+- Set up more detailed movie information database and represent each movie with a structured data representation
+- Apply LIKE function for recording user’s preference  and set up user feedback database for storing users’ interaction with each movie
+- Use Rocchio algorithm to classify the feedback from users' actions, learn user preferences and set up each user profile database
+- compare the candidate movies and user profile to generate recommended movie result, apply Newton’s Law of Cooling algorithm for simulating how the interest will drop over time in this process
+
+2. Apply hotness based recommendation system for recommending movie function
+- set up other users feedback database and calculate their user profiles into user profiles database
+- Get all the users’ interaction with movies to generate recommended movie result,
+
+3. Apply recommendation SWITCH function for choosing personalized recommendation or hotness recommendation, and set up user switch status database
+
+4. Test the app and fix bugs
+
+
+Week 11
+add comments and write report

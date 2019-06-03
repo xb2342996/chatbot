@@ -1,0 +1,6 @@
+framework module Pods_RelaxBot {
+  umbrella header "Pods-RelaxBot-umbrella.h"
+
+  export *
+  module * { export * }
+}

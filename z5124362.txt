@@ -1,0 +1,28 @@
+Week 2:
+Search and read the documentation about dialogflow. Discuss which project we choose and what functions we wanna build. Finally we select the 3rd project.
+
+Week 3:
+Assign works to team members. Build the foundation of front and back end achieve the transmission between server and client.
+Build the basic communication structure of dialogflow. Finish the Login and basic ChatView UI coding.
+
+Week 4:
+Achieve the movie function, display in text mode in front end. Finish the Spotify account authentication process. Add the voice input function.
+
+Week 5:
+Complete the light control interface. Re-design the movie function that suitable for real environment.
+
+Week 6:
+Achieve the music control, music selection and player UI in front end. Test the light control function. Code reconstruction.
+
+Week 7:
+Add the list selection function and UI in the front end. Connect and test with the server end. Build the health function that get the records from the Phone and app watch
+
+Week 8:
+UI design update. Test the scenario that if the search isn't user's expect, we have to provide the more close results to his input.
+
+Week 9:
+Modify the movie information UI, update the User Experience. Test the all function. Add the recommendation system switch button and user sign in & out progress. Add some modify user info function.
+Achieve the video player UI and function in front end.
+
+Week 10:
+Deploy on AWS and test from cloud server. Function Test, Fix bug.

@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5cbdc66cf2126eb6394f6c92"},"user":"username","state":1}
+{"_id":{"$oid":"5cbdd417f2126eb6394f7132"},"user":"user1","state":1}
+{"_id":{"$oid":"5cbdd417f2126eb6394f7137"},"user":"user2","state":1}
+{"_id":{"$oid":"5cbdd417f2126eb6394f713c"},"user":"user3","state":1}

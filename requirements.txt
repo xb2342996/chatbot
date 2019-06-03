@@ -1,0 +1,10 @@
+dialogflow
+python-dotenv
+mongoengine
+flask
+spotipy
+pandas
+nltk
+google-api-python-client
+numpy
+virtualenv

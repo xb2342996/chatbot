@@ -1,0 +1,12 @@
+platform:ios,'11.0'
+
+use_frameworks!
+
+target 'RelaxBot' do
+  pod 'Masonry', '~> 1.1.0'
+  pod 'AFNetworking', '~> 3.2.1'
+  pod 'MJExtension', '~> 3.0.15.1'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'DGActivityIndicatorView'
+  pod 'youtube-ios-player-helper'
+end

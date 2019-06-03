@@ -1,0 +1,27 @@
+week1:
+For the group members and we do the self-introduction.
+
+week2:
+Review all the projects and determine our project. Search the information about our project in the internet and find some references in science direct. For the large amount of iphone users, we decided to build the ios app.
+
+week3:
+Discuss about the proposal and finish it. Through discussing the part in proposal, we divided the work to everyone. My work is to use mongodb to create the user table which save all the information about users, such as username, password, birth date, email. 
+
+week4:
+connected the database to python. Define the basic function for database, such as searching user by username. Define the basic login function, if the user do not write the username or password or the password not correspond to the username, we will return the corresponse response.
+
+week5:
+Create the record and history table in MongoDB. we want to show the last five talk between the user and chatbot when the user login in, so we record every talk in database and sort these, so we could show it. Test this part and fix the bug.
+
+week6:
+Design the function for user login, user register, change users'email, change users'password in app.py. But i find there are something wrong with the response type and type of methons in app.route, so i fix it. Also, i write the training phrases for the music part, moive part, light part and health part.
+
+week7:
+Search the data about music. First, we want to get all the information for music service, such as artists' name, songs' name, albums' name of artists. But it could not be used in dialogflow because of the large amount of data. we could only submit 20 thousand of data to dialogflow. So we decide to use the artist name in music part. I get the data of artists' name and doing the data process.
+
+
+week8:
+Test our app on our own iphone and fix the bugs.
+
+week9:
+Prepare for the presentation and demo. Design the ppt for prosentation.

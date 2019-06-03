@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C614E01E2268342500F90E5F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C614E01D2268342500F90E5F /* SettingViewController.m */; };
+		C614E02122683D8500F90E5F /* ListSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = C614E02022683D8500F90E5F /* ListSelection.m */; };
+		C618836B226AA80100847AF4 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C618836A226AA80100847AF4 /* AlertView.m */; };
+		C618836E226AACB500847AF4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C618836D226AACB500847AF4 /* BaseViewController.m */; };
+		C61970E92269525200430A5F /* AccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61970E82269525100430A5F /* AccountController.m */; };
+		C61970EC2269526800430A5F /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61970EB2269526800430A5F /* RegisterController.m */; };
+		C61970EF2269528600430A5F /* AboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61970EE2269528600430A5F /* AboutUsController.m */; };
+		C61970F22269993C00430A5F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C61970F12269993C00430A5F /* User.m */; };
+		C61970FB2269E89800430A5F /* Regx.m in Sources */ = {isa = PBXBuildFile; fileRef = C61970FA2269E89800430A5F /* Regx.m */; };
+		C61A98A5226C2B5E009401D2 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = C61A98A4226C2B5E009401D2 /* Video.m */; };
+		C6221FC92260508500D4FAD6 /* MovieInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6221FC82260508500D4FAD6 /* MovieInfoView.m */; };
+		C623465E2262C3C20080C8BA /* Health.m in Sources */ = {isa = PBXBuildFile; fileRef = C623465D2262C3C20080C8BA /* Health.m */; };
+		C6239F9422602A88002A2747 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = C6239F9322602A87002A2747 /* Movie.m */; };
+		C62547432249E5E90039D38F /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62547402249E5E70039D38F /* SpotifyAudioPlayback.framework */; };
+		C62547442249E5E90039D38F /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62547412249E5E80039D38F /* SpotifyAuthentication.framework */; };
+		C62547452249E5E90039D38F /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62547422249E5E80039D38F /* SpotifyMetadata.framework */; };
+		C627FBB7223F4F8A005ED7F9 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C627FBB6223F4F8A005ED7F9 /* Message.m */; };
+		C627FBBA223FC4D4005ED7F9 /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C627FBB9223FC4D4005ED7F9 /* TimeUtil.m */; };
+		C62B0B442238D9F8000785B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B0B432238D9F8000785B4 /* AppDelegate.m */; };
+		C62B0B4F2238D9FE000785B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62B0B4D2238D9FE000785B4 /* LaunchScreen.storyboard */; };
+		C62B0B522238D9FE000785B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B0B512238D9FE000785B4 /* main.m */; };
+		C62B0B5C2238D9FF000785B4 /* RelaxBotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B0B5B2238D9FF000785B4 /* RelaxBotTests.m */; };
+		C62B0B672238D9FF000785B4 /* RelaxBotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B0B662238D9FF000785B4 /* RelaxBotUITests.m */; };
+		C62B0B7A2238DDDC000785B4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B0B792238DDDC000785B4 /* LoginViewController.m */; };
+		C62B0B7D2238E422000785B4 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B0B7C2238E422000785B4 /* ChatViewController.m */; };
+		C62F5C09225836EE004258F7 /* MusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62F5C08225836EE004258F7 /* MusicController.m */; };
+		C62F5C0C22583A82004258F7 /* PlaylistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62F5C0B22583A82004258F7 /* PlaylistCell.m */; };
+		C62F5C0F225875BD004258F7 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = C62F5C0E225875BD004258F7 /* Track.m */; };
+		C63092BE223B798B000FB8FC /* ChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C63092BD223B798B000FB8FC /* ChatViewCell.m */; };
+		C633642722470CD300C97F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C633642622470CD300C97F20 /* Assets.xcassets */; };
+		C63391A22253BE9F00D79BBB /* HealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C63391A02253BE9F00D79BBB /* HealthManager.m */; };
+		C6403E3D223BBBF200FFB94E /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C6403E3C223BBBF100FFB94E /* UILabel+Extension.m */; };
+		C642948D2259CA4B002AF23F /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C642948C2259CA4B002AF23F /* DetailView.m */; };
+		C64294902259F6E3002AF23F /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C642948F2259F6E3002AF23F /* ListView.m */; };
+		C64418C1224E019C003DF2A5 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64418C0224E019C003DF2A5 /* HealthKit.framework */; };
+		C64762B1225AD9AF007ED47A /* ContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64762B0225AD9AF007ED47A /* ContentScrollView.m */; };
+		C64762B4225B3B06007ED47A /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64762B3225B3B05007ED47A /* ContainerView.m */; };
+		C671E516225338F0008CC392 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = C671E515225338F0008CC392 /* Playlist.m */; };
+		C677B53E224AFCC400527267 /* BottomInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C677B53D224AFCC400527267 /* BottomInputView.m */; };
+		C677B541224B3B2100527267 /* RecordNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C677B540224B3B2100527267 /* RecordNoticeView.m */; };
+		C677B544224B46D700527267 /* MusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C677B543224B46D700527267 /* MusicPlayerView.m */; };
+		D66598C357139DB03EDA7654 /* Pods_RelaxBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27822EAA20FF873993366A31 /* Pods_RelaxBot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C62B0B582238D9FF000785B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62B0B372238D9F8000785B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62B0B3E2238D9F8000785B4;
+			remoteInfo = RelaxBot;
+		};
+		C62B0B632238D9FF000785B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62B0B372238D9F8000785B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62B0B3E2238D9F8000785B4;
+			remoteInfo = RelaxBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6EADF07F1F3BE8CBCFE55F /* Pods-RelaxBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelaxBot.debug.xcconfig"; path = "Target Support Files/Pods-RelaxBot/Pods-RelaxBot.debug.xcconfig"; sourceTree = "<group>"; };
+		27822EAA20FF873993366A31 /* Pods_RelaxBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelaxBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3958892088898A06D5217F73 /* Pods-RelaxBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelaxBot.release.xcconfig"; path = "Target Support Files/Pods-RelaxBot/Pods-RelaxBot.release.xcconfig"; sourceTree = "<group>"; };
+		C614E01C2268342400F90E5F /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		C614E01D2268342500F90E5F /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		C614E01F22683D8500F90E5F /* ListSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListSelection.h; sourceTree = "<group>"; };
+		C614E02022683D8500F90E5F /* ListSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListSelection.m; sourceTree = "<group>"; };
+		C6188369226AA80100847AF4 /* AlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		C618836A226AA80100847AF4 /* AlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		C618836C226AACB500847AF4 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C618836D226AACB500847AF4 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C61970E72269525100430A5F /* AccountController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountController.h; sourceTree = "<group>"; };
+		C61970E82269525100430A5F /* AccountController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountController.m; sourceTree = "<group>"; };
+		C61970EA2269526800430A5F /* RegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		C61970EB2269526800430A5F /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		C61970ED2269528500430A5F /* AboutUsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsController.h; sourceTree = "<group>"; };
+		C61970EE2269528600430A5F /* AboutUsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsController.m; sourceTree = "<group>"; };
+		C61970F02269993C00430A5F /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C61970F12269993C00430A5F /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C61970F92269E89800430A5F /* Regx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Regx.h; sourceTree = "<group>"; };
+		C61970FA2269E89800430A5F /* Regx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Regx.m; sourceTree = "<group>"; };
+		C61A98A3226C2B5E009401D2 /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		C61A98A4226C2B5E009401D2 /* Video.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		C6221FC72260508500D4FAD6 /* MovieInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieInfoView.h; sourceTree = "<group>"; };
+		C6221FC82260508500D4FAD6 /* MovieInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieInfoView.m; sourceTree = "<group>"; };
+		C623465C2262C3C20080C8BA /* Health.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Health.h; sourceTree = "<group>"; };
+		C623465D2262C3C20080C8BA /* Health.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Health.m; sourceTree = "<group>"; };
+		C6239F9222602A87002A2747 /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		C6239F9322602A87002A2747 /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		C624F7842261B5AC00182A63 /* RelaxBot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelaxBot-Bridging-Header.h"; sourceTree = "<group>"; };
+		C62547402249E5E70039D38F /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		C62547412249E5E80039D38F /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		C62547422249E5E80039D38F /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		C62547462249E71E0039D38F /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		C627FBB5223F4F8A005ED7F9 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C627FBB6223F4F8A005ED7F9 /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C627FBB8223FC4D4005ED7F9 /* TimeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeUtil.h; sourceTree = "<group>"; };
+		C627FBB9223FC4D4005ED7F9 /* TimeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeUtil.m; sourceTree = "<group>"; };
+		C62B0B3F2238D9F8000785B4 /* RelaxBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62B0B422238D9F8000785B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C62B0B432238D9F8000785B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C62B0B4E2238D9FE000785B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C62B0B502238D9FE000785B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62B0B512238D9FE000785B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C62B0B572238D9FF000785B4 /* RelaxBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelaxBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62B0B5B2238D9FF000785B4 /* RelaxBotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaxBotTests.m; sourceTree = "<group>"; };
+		C62B0B5D2238D9FF000785B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62B0B622238D9FF000785B4 /* RelaxBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelaxBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62B0B662238D9FF000785B4 /* RelaxBotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelaxBotUITests.m; sourceTree = "<group>"; };
+		C62B0B682238D9FF000785B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62B0B782238DDDC000785B4 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C62B0B792238DDDC000785B4 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C62B0B7B2238E422000785B4 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		C62B0B7C2238E422000785B4 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		C62F5C07225836EE004258F7 /* MusicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicController.h; sourceTree = "<group>"; };
+		C62F5C08225836EE004258F7 /* MusicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicController.m; sourceTree = "<group>"; };
+		C62F5C0A22583A82004258F7 /* PlaylistCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistCell.h; sourceTree = "<group>"; };
+		C62F5C0B22583A82004258F7 /* PlaylistCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistCell.m; sourceTree = "<group>"; };
+		C62F5C0D225875BD004258F7 /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		C62F5C0E225875BD004258F7 /* Track.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		C63092BC223B798B000FB8FC /* ChatViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewCell.h; sourceTree = "<group>"; };
+		C63092BD223B798B000FB8FC /* ChatViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewCell.m; sourceTree = "<group>"; };
+		C633642622470CD300C97F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63391A02253BE9F00D79BBB /* HealthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthManager.m; sourceTree = "<group>"; };
+		C63391A12253BE9F00D79BBB /* HealthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthManager.h; sourceTree = "<group>"; };
+		C6403E3B223BBBF100FFB94E /* UILabel+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		C6403E3C223BBBF100FFB94E /* UILabel+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		C642948B2259CA4B002AF23F /* DetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		C642948C2259CA4B002AF23F /* DetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		C642948E2259F6E3002AF23F /* ListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
+		C642948F2259F6E3002AF23F /* ListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
+		C64418BF224E019C003DF2A5 /* RelaxBot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RelaxBot.entitlements; sourceTree = "<group>"; };
+		C64418C0224E019C003DF2A5 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C64762AF225AD9AF007ED47A /* ContentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentScrollView.h; sourceTree = "<group>"; };
+		C64762B0225AD9AF007ED47A /* ContentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentScrollView.m; sourceTree = "<group>"; };
+		C64762B2225B3B05007ED47A /* ContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
+		C64762B3225B3B05007ED47A /* ContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
+		C671E514225338F0008CC392 /* Playlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		C671E515225338F0008CC392 /* Playlist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+		C677B53C224AFCC400527267 /* BottomInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomInputView.h; sourceTree = "<group>"; };
+		C677B53D224AFCC400527267 /* BottomInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomInputView.m; sourceTree = "<group>"; };
+		C677B53F224B3B2100527267 /* RecordNoticeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordNoticeView.h; sourceTree = "<group>"; };
+		C677B540224B3B2100527267 /* RecordNoticeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordNoticeView.m; sourceTree = "<group>"; };
+		C677B542224B46D700527267 /* MusicPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerView.h; sourceTree = "<group>"; };
+		C677B543224B46D700527267 /* MusicPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62B0B3C2238D9F8000785B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62547452249E5E90039D38F /* SpotifyMetadata.framework in Frameworks */,
+				C62547442249E5E90039D38F /* SpotifyAuthentication.framework in Frameworks */,
+				C62547432249E5E90039D38F /* SpotifyAudioPlayback.framework in Frameworks */,
+				C64418C1224E019C003DF2A5 /* HealthKit.framework in Frameworks */,
+				D66598C357139DB03EDA7654 /* Pods_RelaxBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B0B542238D9FF000785B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B0B5F2238D9FF000785B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5E6F1266F58131FB3C9CE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F6EADF07F1F3BE8CBCFE55F /* Pods-RelaxBot.debug.xcconfig */,
+				3958892088898A06D5217F73 /* Pods-RelaxBot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5211407AB4A5F43212ECCA20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C64418C0224E019C003DF2A5 /* HealthKit.framework */,
+				C62547402249E5E70039D38F /* SpotifyAudioPlayback.framework */,
+				C62547412249E5E80039D38F /* SpotifyAuthentication.framework */,
+				C62547422249E5E80039D38F /* SpotifyMetadata.framework */,
+				27822EAA20FF873993366A31 /* Pods_RelaxBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62B0B362238D9F8000785B4 = {
+			isa = PBXGroup;
+			children = (
+				C62B0B412238D9F8000785B4 /* RelaxBot */,
+				C62B0B5A2238D9FF000785B4 /* RelaxBotTests */,
+				C62B0B652238D9FF000785B4 /* RelaxBotUITests */,
+				C62B0B402238D9F8000785B4 /* Products */,
+				4D5E6F1266F58131FB3C9CE1 /* Pods */,
+				5211407AB4A5F43212ECCA20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C62B0B402238D9F8000785B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62B0B3F2238D9F8000785B4 /* RelaxBot.app */,
+				C62B0B572238D9FF000785B4 /* RelaxBotTests.xctest */,
+				C62B0B622238D9FF000785B4 /* RelaxBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62B0B412238D9F8000785B4 /* RelaxBot */ = {
+			isa = PBXGroup;
+			children = (
+				C64418BF224E019C003DF2A5 /* RelaxBot.entitlements */,
+				C62B0B772238DACD000785B4 /* Utilities */,
+				C62B0B762238DAC5000785B4 /* Model */,
+				C62B0B752238DAB2000785B4 /* View */,
+				C62B0B742238DA7E000785B4 /* Controller */,
+				C62B0B422238D9F8000785B4 /* AppDelegate.h */,
+				C62B0B432238D9F8000785B4 /* AppDelegate.m */,
+				C633642622470CD300C97F20 /* Assets.xcassets */,
+				C62B0B4D2238D9FE000785B4 /* LaunchScreen.storyboard */,
+				C62B0B502238D9FE000785B4 /* Info.plist */,
+				C62B0B512238D9FE000785B4 /* main.m */,
+			);
+			path = RelaxBot;
+			sourceTree = "<group>";
+		};
+		C62B0B5A2238D9FF000785B4 /* RelaxBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				C62B0B5B2238D9FF000785B4 /* RelaxBotTests.m */,
+				C62B0B5D2238D9FF000785B4 /* Info.plist */,
+			);
+			path = RelaxBotTests;
+			sourceTree = "<group>";
+		};
+		C62B0B652238D9FF000785B4 /* RelaxBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C62B0B662238D9FF000785B4 /* RelaxBotUITests.m */,
+				C62B0B682238D9FF000785B4 /* Info.plist */,
+			);
+			path = RelaxBotUITests;
+			sourceTree = "<group>";
+		};
+		C62B0B742238DA7E000785B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C62B0B782238DDDC000785B4 /* LoginViewController.h */,
+				C62B0B792238DDDC000785B4 /* LoginViewController.m */,
+				C62B0B7B2238E422000785B4 /* ChatViewController.h */,
+				C62B0B7C2238E422000785B4 /* ChatViewController.m */,
+				C62F5C07225836EE004258F7 /* MusicController.h */,
+				C62F5C08225836EE004258F7 /* MusicController.m */,
+				C614E01C2268342400F90E5F /* SettingViewController.h */,
+				C614E01D2268342500F90E5F /* SettingViewController.m */,
+				C61970E72269525100430A5F /* AccountController.h */,
+				C61970E82269525100430A5F /* AccountController.m */,
+				C61970EA2269526800430A5F /* RegisterController.h */,
+				C61970EB2269526800430A5F /* RegisterController.m */,
+				C61970ED2269528500430A5F /* AboutUsController.h */,
+				C61970EE2269528600430A5F /* AboutUsController.m */,
+				C618836C226AACB500847AF4 /* BaseViewController.h */,
+				C618836D226AACB500847AF4 /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C62B0B752238DAB2000785B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C63092BC223B798B000FB8FC /* ChatViewCell.h */,
+				C63092BD223B798B000FB8FC /* ChatViewCell.m */,
+				C6403E3B223BBBF100FFB94E /* UILabel+Extension.h */,
+				C6403E3C223BBBF100FFB94E /* UILabel+Extension.m */,
+				C677B53C224AFCC400527267 /* BottomInputView.h */,
+				C677B53D224AFCC400527267 /* BottomInputView.m */,
+				C677B53F224B3B2100527267 /* RecordNoticeView.h */,
+				C677B540224B3B2100527267 /* RecordNoticeView.m */,
+				C677B542224B46D700527267 /* MusicPlayerView.h */,
+				C677B543224B46D700527267 /* MusicPlayerView.m */,
+				C62F5C0A22583A82004258F7 /* PlaylistCell.h */,
+				C62F5C0B22583A82004258F7 /* PlaylistCell.m */,
+				C642948B2259CA4B002AF23F /* DetailView.h */,
+				C642948C2259CA4B002AF23F /* DetailView.m */,
+				C642948E2259F6E3002AF23F /* ListView.h */,
+				C642948F2259F6E3002AF23F /* ListView.m */,
+				C64762AF225AD9AF007ED47A /* ContentScrollView.h */,
+				C64762B0225AD9AF007ED47A /* ContentScrollView.m */,
+				C64762B2225B3B05007ED47A /* ContainerView.h */,
+				C64762B3225B3B05007ED47A /* ContainerView.m */,
+				C6221FC72260508500D4FAD6 /* MovieInfoView.h */,
+				C6221FC82260508500D4FAD6 /* MovieInfoView.m */,
+				C6188369226AA80100847AF4 /* AlertView.h */,
+				C618836A226AA80100847AF4 /* AlertView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C62B0B762238DAC5000785B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C627FBB5223F4F8A005ED7F9 /* Message.h */,
+				C627FBB6223F4F8A005ED7F9 /* Message.m */,
+				C671E514225338F0008CC392 /* Playlist.h */,
+				C671E515225338F0008CC392 /* Playlist.m */,
+				C62F5C0D225875BD004258F7 /* Track.h */,
+				C62F5C0E225875BD004258F7 /* Track.m */,
+				C6239F9222602A87002A2747 /* Movie.h */,
+				C6239F9322602A87002A2747 /* Movie.m */,
+				C623465C2262C3C20080C8BA /* Health.h */,
+				C623465D2262C3C20080C8BA /* Health.m */,
+				C614E01F22683D8500F90E5F /* ListSelection.h */,
+				C614E02022683D8500F90E5F /* ListSelection.m */,
+				C61970F02269993C00430A5F /* User.h */,
+				C61970F12269993C00430A5F /* User.m */,
+				C61A98A3226C2B5E009401D2 /* Video.h */,
+				C61A98A4226C2B5E009401D2 /* Video.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C62B0B772238DACD000785B4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C62547462249E71E0039D38F /* Config.h */,
+				C627FBB8223FC4D4005ED7F9 /* TimeUtil.h */,
+				C627FBB9223FC4D4005ED7F9 /* TimeUtil.m */,
+				C63391A12253BE9F00D79BBB /* HealthManager.h */,
+				C63391A02253BE9F00D79BBB /* HealthManager.m */,
+				C624F7842261B5AC00182A63 /* RelaxBot-Bridging-Header.h */,
+				C61970F92269E89800430A5F /* Regx.h */,
+				C61970FA2269E89800430A5F /* Regx.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C62B0B3E2238D9F8000785B4 /* RelaxBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62B0B6B2238D9FF000785B4 /* Build configuration list for PBXNativeTarget "RelaxBot" */;
+			buildPhases = (
+				4FAD6C657B39FB20FF72D48C /* [CP] Check Pods Manifest.lock */,
+				C62B0B3B2238D9F8000785B4 /* Sources */,
+				C62B0B3C2238D9F8000785B4 /* Frameworks */,
+				C62B0B3D2238D9F8000785B4 /* Resources */,
+				3F5D43F03601A11B24309337 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelaxBot;
+			productName = RelaxBot;
+			productReference = C62B0B3F2238D9F8000785B4 /* RelaxBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C62B0B562238D9FF000785B4 /* RelaxBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62B0B6E2238D9FF000785B4 /* Build configuration list for PBXNativeTarget "RelaxBotTests" */;
+			buildPhases = (
+				C62B0B532238D9FF000785B4 /* Sources */,
+				C62B0B542238D9FF000785B4 /* Frameworks */,
+				C62B0B552238D9FF000785B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62B0B592238D9FF000785B4 /* PBXTargetDependency */,
+			);
+			name = RelaxBotTests;
+			productName = RelaxBotTests;
+			productReference = C62B0B572238D9FF000785B4 /* RelaxBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C62B0B612238D9FF000785B4 /* RelaxBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62B0B712238D9FF000785B4 /* Build configuration list for PBXNativeTarget "RelaxBotUITests" */;
+			buildPhases = (
+				C62B0B5E2238D9FF000785B4 /* Sources */,
+				C62B0B5F2238D9FF000785B4 /* Frameworks */,
+				C62B0B602238D9FF000785B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62B0B642238D9FF000785B4 /* PBXTargetDependency */,
+			);
+			name = RelaxBotUITests;
+			productName = RelaxBotUITests;
+			productReference = C62B0B622238D9FF000785B4 /* RelaxBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62B0B372238D9F8000785B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xiongbiao;
+				TargetAttributes = {
+					C62B0B3E2238D9F8000785B4 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					C62B0B562238D9FF000785B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C62B0B3E2238D9F8000785B4;
+					};
+					C62B0B612238D9FF000785B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C62B0B3E2238D9F8000785B4;
+					};
+				};
+			};
+			buildConfigurationList = C62B0B3A2238D9F8000785B4 /* Build configuration list for PBXProject "RelaxBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62B0B362238D9F8000785B4;
+			productRefGroup = C62B0B402238D9F8000785B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62B0B3E2238D9F8000785B4 /* RelaxBot */,
+				C62B0B562238D9FF000785B4 /* RelaxBotTests */,
+				C62B0B612238D9FF000785B4 /* RelaxBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62B0B3D2238D9F8000785B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C633642722470CD300C97F20 /* Assets.xcassets in Resources */,
+				C62B0B4F2238D9FE000785B4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B0B552238D9FF000785B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B0B602238D9FF000785B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F5D43F03601A11B24309337 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelaxBot/Pods-RelaxBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DGActivityIndicatorView/DGActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RelaxBot/Pods-RelaxBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FAD6C657B39FB20FF72D48C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelaxBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62B0B3B2238D9F8000785B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6403E3D223BBBF200FFB94E /* UILabel+Extension.m in Sources */,
+				C6221FC92260508500D4FAD6 /* MovieInfoView.m in Sources */,
+				C677B541224B3B2100527267 /* RecordNoticeView.m in Sources */,
+				C64762B1225AD9AF007ED47A /* ContentScrollView.m in Sources */,
+				C63391A22253BE9F00D79BBB /* HealthManager.m in Sources */,
+				C64762B4225B3B06007ED47A /* ContainerView.m in Sources */,
+				C642948D2259CA4B002AF23F /* DetailView.m in Sources */,
+				C64294902259F6E3002AF23F /* ListView.m in Sources */,
+				C62B0B522238D9FE000785B4 /* main.m in Sources */,
+				C618836E226AACB500847AF4 /* BaseViewController.m in Sources */,
+				C62F5C0C22583A82004258F7 /* PlaylistCell.m in Sources */,
+				C614E02122683D8500F90E5F /* ListSelection.m in Sources */,
+				C6239F9422602A88002A2747 /* Movie.m in Sources */,
+				C627FBBA223FC4D4005ED7F9 /* TimeUtil.m in Sources */,
+				C61970E92269525200430A5F /* AccountController.m in Sources */,
+				C61970EC2269526800430A5F /* RegisterController.m in Sources */,
+				C61970FB2269E89800430A5F /* Regx.m in Sources */,
+				C62B0B442238D9F8000785B4 /* AppDelegate.m in Sources */,
+				C62F5C0F225875BD004258F7 /* Track.m in Sources */,
+				C61970EF2269528600430A5F /* AboutUsController.m in Sources */,
+				C618836B226AA80100847AF4 /* AlertView.m in Sources */,
+				C677B53E224AFCC400527267 /* BottomInputView.m in Sources */,
+				C623465E2262C3C20080C8BA /* Health.m in Sources */,
+				C627FBB7223F4F8A005ED7F9 /* Message.m in Sources */,
+				C671E516225338F0008CC392 /* Playlist.m in Sources */,
+				C62F5C09225836EE004258F7 /* MusicController.m in Sources */,
+				C63092BE223B798B000FB8FC /* ChatViewCell.m in Sources */,
+				C61970F22269993C00430A5F /* User.m in Sources */,
+				C62B0B7D2238E422000785B4 /* ChatViewController.m in Sources */,
+				C62B0B7A2238DDDC000785B4 /* LoginViewController.m in Sources */,
+				C61A98A5226C2B5E009401D2 /* Video.m in Sources */,
+				C677B544224B46D700527267 /* MusicPlayerView.m in Sources */,
+				C614E01E2268342500F90E5F /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B0B532238D9FF000785B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62B0B5C2238D9FF000785B4 /* RelaxBotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B0B5E2238D9FF000785B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62B0B672238D9FF000785B4 /* RelaxBotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C62B0B592238D9FF000785B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62B0B3E2238D9F8000785B4 /* RelaxBot */;
+			targetProxy = C62B0B582238D9FF000785B4 /* PBXContainerItemProxy */;
+		};
+		C62B0B642238D9FF000785B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62B0B3E2238D9F8000785B4 /* RelaxBot */;
+			targetProxy = C62B0B632238D9FF000785B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C62B0B4D2238D9FE000785B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62B0B4E2238D9FE000785B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62B0B692238D9FF000785B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C62B0B6A2238D9FF000785B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C62B0B6C2238D9FF000785B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6EADF07F1F3BE8CBCFE55F /* Pods-RelaxBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RelaxBot/RelaxBot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R57E3M49FP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RelaxBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongbiao.relaxbot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RelaxBot/Utilities/RelaxBot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C62B0B6D2238D9FF000785B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3958892088898A06D5217F73 /* Pods-RelaxBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RelaxBot/RelaxBot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R57E3M49FP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RelaxBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongbiao.relaxbot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RelaxBot/Utilities/RelaxBot-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C62B0B6F2238D9FF000785B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R57E3M49FP;
+				INFOPLIST_FILE = RelaxBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongbiao.RelaxBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelaxBot.app/RelaxBot";
+			};
+			name = Debug;
+		};
+		C62B0B702238D9FF000785B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R57E3M49FP;
+				INFOPLIST_FILE = RelaxBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongbiao.RelaxBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelaxBot.app/RelaxBot";
+			};
+			name = Release;
+		};
+		C62B0B722238D9FF000785B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R57E3M49FP;
+				INFOPLIST_FILE = RelaxBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongbiao.RelaxBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RelaxBot;
+			};
+			name = Debug;
+		};
+		C62B0B732238D9FF000785B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R57E3M49FP;
+				INFOPLIST_FILE = RelaxBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongbiao.RelaxBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RelaxBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62B0B3A2238D9F8000785B4 /* Build configuration list for PBXProject "RelaxBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B0B692238D9FF000785B4 /* Debug */,
+				C62B0B6A2238D9FF000785B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62B0B6B2238D9FF000785B4 /* Build configuration list for PBXNativeTarget "RelaxBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B0B6C2238D9FF000785B4 /* Debug */,
+				C62B0B6D2238D9FF000785B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62B0B6E2238D9FF000785B4 /* Build configuration list for PBXNativeTarget "RelaxBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B0B6F2238D9FF000785B4 /* Debug */,
+				C62B0B702238D9FF000785B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62B0B712238D9FF000785B4 /* Build configuration list for PBXNativeTarget "RelaxBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B0B722238D9FF000785B4 /* Debug */,
+				C62B0B732238D9FF000785B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62B0B372238D9F8000785B4 /* Project object */;
+}

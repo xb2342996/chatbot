@@ -1,0 +1,24 @@
+Week2:
+Review all the projects and determine our project. search some information and technology we can use in this project.we decide to build this project based on IOS and i am mainly in charge of the backend. write a draft of our proposal.i wrote an API between dialog flow and server
+
+Week3:
+this week for my work is to finish the movie information query part. i use the API provided by OMDB in this function. it is a first version and some problem happens. for example, there are some movie named like I.T or spider-man, the dialog flow will determine “I” as a movie name instead of “I.T”,trying to find a way to solve it in next week.  
+
+Week4:
+my work this week is finish the light control function. LIFX API was used here and for the first version of light control we only provide function like turn on-off , change the brightness and switch the color. in the meantime the problem last week was solved. plan last week is create the function of health record.
+
+Week5:
+bugs found in the movie information query function, the data i get are sometimes empty, type are rather string or list where i didn’t notice in the first time.bugs are finish and we decide to add a constrain that user can only ask one movie at a time.in the light control part we decided to add two more functions in light control: infrared mode and kelvin can be set now. and we found the build in color only provide 9 kinds of color, so we add more color in it like “light slate gray” or “midnight blue”.
+the health function is leave to next week.
+
+Week6:
+finish the health record in three days. bugs found on movie and music selection. when the user say”i want last one” the dialog flow can’t recognize what he said so that we can’t get the index of last one.we rewrite our python file to make it more organized. i write the draft of our report.
+
+Week7:
+due to my personal reason, got some family issues to deal with so i didn’t do much work this week
+
+Week8:
+start writing the report, test functions, found bugs and fix it, add more response to make bot more human-like. build dialog flow for movie recommendation and movie trailer, add more training phase in dialog flow 
+
+Week9:
+prepare for demo
